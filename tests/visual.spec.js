@@ -9,7 +9,7 @@ test.describe('Visual tests', () => {
   });
 
   test('About page visual test', async ({ page }) => {
-    await page.goto('/about');
+    await page.goto('/signup');
     await page.waitForLoadState('networkidle');
     await percySnapshot(page, 'About Page');
   });
