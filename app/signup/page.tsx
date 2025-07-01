@@ -212,7 +212,7 @@ export default function SignUpPage() {
               </div>
 
               {/* Submit button */}
-              <Button />
+              <Button onClick={handleSubmit}>Sign Up</Button>
 
               {/* Sign in link */}
               <p className="text-center text-gray-600">
