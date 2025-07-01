@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
+import Button from "../components/button";
 
 export default function SignUpPage() {
   const [showPassword, setShowPassword] = useState(false);
@@ -211,13 +212,7 @@ export default function SignUpPage() {
               </div>
 
               {/* Submit button */}
-              <button
-                type="button"
-                onClick={handleSubmit}
-                className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-200"
-              >
-                Create Account
-              </button>
+              <Button />
 
               {/* Sign in link */}
               <p className="text-center text-gray-600">
